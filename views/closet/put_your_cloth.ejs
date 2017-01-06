@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form enctype="multipart/form-data" action="/closet/put_your_cloth" method="post">
+      <input type="text" name="user_id"/> 유저기본키
+      <input type="text" name="category"/> 카테
+
+      <input type="file" name="file"/>
+      <input type="submit" value="저장" />
+    </form>
+  </body>
+</html>
